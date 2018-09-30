@@ -5,8 +5,6 @@ import java.io.File;
 
 public class DummyServiceImpl implements DummyService {
 
-  public static DummyServiceImpl dummyServiceImpl = new DummyServiceImpl();
-
   @Override
   public String hello(String name) {
     return "Hello " + name;
@@ -25,6 +23,6 @@ public class DummyServiceImpl implements DummyService {
 
   @Override
   public String toString() {
-    return null;
+    return "DummyServiceImpl";
   }
 }
